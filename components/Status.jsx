@@ -18,7 +18,7 @@ export default function Stats() {
         {stats.map((stat, index) => (
           <div
             key={index}
-            className="text-center  last:border-none border-r-2 border-white px-6"
+            className="text-center  last:border-none md:border-r-2  md:border-white px-6 border-r-0"
           >
             <p className="text-3xl md:text-4xl font-bold">{stat.value}</p>
             <p className="text-lg text-white font-bold">{stat.label}</p>
