@@ -7,7 +7,7 @@ export default function WhyChooseUs() {
         <div className="text-blue-400 text-4xl">{icon}</div>
         <div>
           <h4 className="text-lg font-semibold">{title}</h4>
-          <p className="text-gray-400 text-sm">
+          <p className="text-gray-500 text-sm">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
         </div>
